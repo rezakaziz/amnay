@@ -1,0 +1,13 @@
+rules:
+  timeout:
+    enabled: true
+    max_timeout: 30
+
+  concurrency:
+    enabled: true
+
+  pinned_actions:
+    enabled: true
+
+  least_privilege:
+    enabled: true

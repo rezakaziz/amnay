@@ -1,0 +1,10 @@
+import yaml
+
+
+class GitHubParser:
+
+    @staticmethod
+    def load(path: str):
+
+        with open(path) as f:
+            return yaml.safe_load(f)
